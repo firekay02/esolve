@@ -5,11 +5,11 @@ import { Footer } from './components/Footer';
 import { HomePage } from './pages/HomePage';
 import { BookingPage } from './pages/BookingPage';
 import { PricingPage } from './pages/PricingPage';
-import { TechnicianDashboard } from './pages/TechnicianDashboard';
+import { TechnicianDashboard } from './pages/TechnicianDeshboard';
 import { SupportPage } from './pages/SupportPage';
 import { FAQPage } from './pages/FAQPage';
 import { AboutPage } from './pages/AboutPage';
-import { HowItWorksPage } from './pages/HowItWorksPage';
+import { HowItWorksPage } from './pages/HowItWorkPage';
 
 function App() {
   return (

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { AuthProvider } from '../context/AuthContext';
 import { AuthForm } from '../components/AuthForm';
-import { Dashboard } from '../components/Dashboard';
+import { Dashboard } from '../components/Deshboard';
 import { useAuth } from '../context/AuthContext';
 
 const TechnicianDashboardContent: React.FC = () => {
