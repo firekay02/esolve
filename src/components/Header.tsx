@@ -10,8 +10,8 @@ export const Header: React.FC = () => {
     { name: 'Home', href: '/' },
     { name: 'How It Works', href: '/how-it-works' },
     { name: 'Pricing', href: '/pricing' },
+    { name: 'Book a Session', href: '/book' },
     { name: 'Support', href: '/support' },
-    { name: 'About', href: '/about' },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -58,7 +58,7 @@ export const Header: React.FC = () => {
               className="bg-gradient-to-r from-blue-900 to-green-500 text-white px-6 py-2 rounded-lg font-medium hover:from-blue-800 hover:to-green-600 transition-all duration-200 flex items-center space-x-2"
             >
               <Phone className="h-4 w-4" />
-              <span>Start Session</span>
+              <span>Book a Session</span>
             </Link>
           </div>
 
@@ -103,7 +103,7 @@ export const Header: React.FC = () => {
                   className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-900 to-green-500 text-white px-6 py-2 rounded-lg font-medium"
                 >
                   <Phone className="h-4 w-4" />
-                  <span>Start Session</span>
+                  <span>Book a Session</span>
                 </Link>
               </div>
             </div>
